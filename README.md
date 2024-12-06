@@ -1,13 +1,5 @@
-# hellostatic-builtin
+# CPU.fm static site
 
-There's not a lot to this example because the Flyctl builtin static builder does it all for you:
+[CPU.fm](https://cpu.fm/) (Changelog Podcast Universe) is our new home for spin-offs and collaborations. It's a burgeoning network of world-class developer pods with a big vision, but we're just getting started.
 
-* flyctl init
-  * pick an app name
-  * pick an org
-  * select builtin static for a builder
-  * hit return for the default port
-* flyctl deploy
-* flyctl open
-
-Enjoy your site!
+[Learn more about the big changes we're making in 2025](https://changelog.com/posts/a-new-era-for-the-changelog-podcast-universe).
