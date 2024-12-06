@@ -1,0 +1,24 @@
+/* local imports */
+@import './fonts.css';
+
+/* src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* subscribe-button styles */
+:root {
+  --fill-color: #59b287;
+  --fill-hover: #4B9873;
+}
+
+.subscribe-button {
+  @apply bg-[var(--fill-color)] border-2 border-transparent rounded-sm font-mono text-base font-bold leading-none px-5 py-3 text-zinc-900 transition-colors duration-500 no-underline inline-block;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  @apply bg-zinc-900 border-[var(--fill-hover)] text-[var(--fill-hover)];
+}
